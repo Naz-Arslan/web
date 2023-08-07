@@ -6,19 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css"
-    crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
     <title>Document</title>
+    <style>
+        body {
+            background-color: #000000;
+            /* Brown background color */
+        }
+
+        .social-icons a {
+            color: black;
+            text-decoration: none;
+            display: inline-block;
+            padding: 5px 10px;
+            border: 2px solid transparent;
+            transition: border-color 0.3s, color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: rgb(0, 0, 0);
+            border-color: rgb(45, 136, 45);
+        }
+    </style>
 </head>
 
 <body>
     <div class="Homepage">
         <div class="row mx-2 my-2">
-            <div class="col-lg-4 col-md-4 col-12">
+            <div class="col-lg-6 col-md-6 col-12">
                 <div class="card">
-                    <img src="img/cilbir.jpg" width="30%">
+                    <img src="img/profil.png" width="30%">
                     <h3>Naz Arslan</h3>
                     <hr>
                     <div class="card-body">
@@ -28,17 +50,12 @@
                         <h6><i class="fas fa-phone-alt"></i>0537-413-46-74</h6>
                         <hr>
                         <h3><i class="fas fa-asterisk mr-2"></i>Beceriler</h3>
-                        <h6>İngilizce</h6>
-                        <div class="progress rounded-pill my-3" style="height: 20px;">
-                            <div class="progress-bar" style="background-color: rgb(31, 68, 56); width: 80%;">
-                                80%</div>
-                        </div>
-                        <h6>Fransızca</h6>
+                        <h6>Yazılım</h6>
                         <div class="progress rounded-pill my-3" style="height: 20px;">
                             <div class="progress-bar" style="background-color: rgb(31, 68, 56); width: 70%;">
-                                70%</div>
+                                40%</div>
                         </div>
-                        <h6>Almanca</h6>
+                        <h6>İngilizce</h6>
                         <div class="progress rounded-pill my-3" style="height: 20px;">
                             <div class="progress-bar" style="background-color: rgb(31, 68, 56); width: 60%;">
                                 60%</div>
@@ -46,14 +63,50 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-lg-8 col-md-8 col-12">
-            <div class="card">
-                <div class="card-body">
-                    <h2><i class="fas fa-suitcase mr-3"></i></h2>
-                    <h6>Front End Devoloper /someCompany.com</h6>
-                    <p><i class="fas fa-calendar mr-3"></i>jan 2016<button
-                            class="btn btn-success px-3 py-0">Current</button>/i></p>
+            <div class="col-lg-6 col-md-6 col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3><i class="fas fa-suitcase mr-3"></i></h3>
+                        <h6>Bilgisayar Mühendisliği Öğrencisi</h6>
+                        <p>Yozgat Bozok Üniversitesi</p>
+                        <p><i class="fas fa-calendar mr-3"></i>2020-2024<button class="btn btn-success px-3 py-0">Şu
+                                an</button></p>
+                    </div>
+                    <div class="card-body">
+                        <h3><i class="fas fa-suitcase mr-3"></i></h3>
+                        <p>Cebeci Final Anadolu Lisesi</p>
+                        <p><i class="fas fa-calendar mr-3"></i>2016-2020</p>
+                    </div>
+                    <div class="card-body">
+                        <h3><i class="fas fa-suitcase mr-3"></i></h3>
+                        <p>Muradiye Kanuni Ortaokulu</p>
+                        <p><i class="fas fa-calendar mr-3"></i>2012-2016</p>
+                    </div>
+                    <div class="card-body">
+                        <h3><i class="fas fa-suitcase mr-3"></i></h3>
+                        <p>Cebeci İlkokulu</p>
+                        <p><i class="fas fa-calendar mr-3"></i>2009-2012</p>
+                    </div>,
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="card">
+                    <!-- ... (previous card-body blocks) ... -->
+
+                    <!-- New card-body block for additional information -->
+                    <div class="card-body">
+                        <h3><i class="fa fa-share-square-o" aria-hidden="true"></i>Sosyal medya</h3>
+                        <p>Sosyal medya hesaplarımı aşağıda paylaştım bana oradan da ulaşabilirsiniz</p>
+                        <div class="social-icons">
+                            <a href="https://www.instagram.com/your_username" target="_blank">İnstagram<i
+                                    class="fa fa-instagram" aria-hidden="true"></i></a><br>
+                            <a href="https://twitter.com/your_username" target="_blank">Twitter<i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a><br>
+                            <a href="https://www.facebook.com/your_username" target="_blank">Facebook<i
+                                    class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
